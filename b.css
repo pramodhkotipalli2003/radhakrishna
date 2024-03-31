@@ -1,0 +1,108 @@
+.name{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.text{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.pic1 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/download.jpg);
+    background-size: cover;
+}
+.pic2 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/Radha\ Krishna.jpg);
+    background-size: cover;
+}
+
+.pic3 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/RadhaKrishna\ \(1\).jpg);
+    background-size: cover;
+}
+
+.pic4 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/wp4728840.jpg);
+    background-size: cover;
+}
+.pic5 {
+    color: blue;
+    background-color: red;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+
+
+}
+
+.pic5 h1{
+    size: 20px;
+    text-align: center;
+}
+.name:hover .pic1{
+    transform: rotate(360deg) translatex(300px);
+
+}
+.name:hover .pic2 {
+    transform: rotate(360deg) translatey(300px);
+
+}
+.name:hover .pic3 {
+    transform: rotate(360deg) translatex(-300px);
+
+}
+.name:hover .pic4 {
+    transform: rotate(360deg) translatey(-300px);
+
+}
+.name:hover .pic5{
+    display: none;
+}
+.name:hover .text{
+    color: white;
+    z-index: 9;
+
+}
